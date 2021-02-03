@@ -1,0 +1,26 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-kycapp-master-204738-authRole",
+            "UnauthRoleArn": "arn:aws:iam::940563653485:role/amplify-kycapp-master-204738-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::940563653485:role/amplify-kycapp-master-204738-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-kycapp-master-204738-deployment",
+            "UnauthRoleName": "amplify-kycapp-master-204738-unauthRole",
+            "StackName": "amplify-kycapp-master-204738",
+            "StackId": "arn:aws:cloudformation:eu-west-1:940563653485:stack/amplify-kycapp-master-204738/bb27bcb0-6017-11eb-a6e6-06c7507f082b",
+            "AmplifyAppId": "d1cm78utd31mdh"
+        },
+        "categories": {
+            "auth": {
+                "kycapp2c68f493": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1cm78utd31mdh",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

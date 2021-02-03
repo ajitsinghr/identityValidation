@@ -1,0 +1,36 @@
+{
+    "auth": {
+        "kycapp2c68f493": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    },
+    "predictions": {
+        "faceId": {
+            "providerPlugin": "awscloudformation",
+            "service": "Rekognition",
+            "dependsOn": [],
+            "identifyType": "identifyEntities"
+        },
+        "textId": {
+            "providerPlugin": "awscloudformation",
+            "service": "RekognitionAndTextract",
+            "dependsOn": [],
+            "identifyType": "identifyText"
+        },
+        "textInterpret": {
+            "providerPlugin": "awscloudformation",
+            "service": "Comprehend",
+            "interpretType": "interpretText"
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "providerPlugin": "awscloudformation",
+            "type": "manual"
+        }
+    }
+}
