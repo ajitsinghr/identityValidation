@@ -71,14 +71,14 @@ export default () => {
                 </p>
             </Jumbotron>
         </Tab>
-        <Tab eventKey="Liveliness" title="Liveliness Test" disabled>
-            <div>
-                <Liveliness setTabStatus={setTabStatus} setLiveTestDetails={setLiveTestDetails} />
-            </div>
-        </Tab>
         <Tab eventKey="UploadDocs" title="Upload Documents" disabled>
             <div>
               <AnalyzeDocs setTabStatus={setTabStatus} setDocumentDetails={setDocumentDetails} />
+            </div>
+        </Tab>
+        <Tab eventKey="Liveliness" title="Liveliness Test" disabled>
+            <div>
+                <Liveliness setTabStatus={setTabStatus} setLiveTestDetails={setLiveTestDetails} />
             </div>
         </Tab>
         <Tab eventKey="AnalysisDetails" title="Details of Analysis" disabled>
